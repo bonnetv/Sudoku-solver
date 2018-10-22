@@ -3,8 +3,8 @@ This project allows a Raspberry Pi to solve and fill a sudoku grid with an exist
 
 [![Watch the video](https://github.com/bonnetv/Sudoku-solver/blob/master/img/Capture.JPG)](https://drive.google.com/open?id=1vr8ph6N277OrLa1NCr08aWasJZEI5jlR)
 
-———————————————————————————————————————————————————————————————
-### Spécifications techniques ###
+
+## Spécifications techniques
 
 Le sytème tourne sous Raspberry 3B avec une carte de 16Go minimum.
 Le système d'exploitation est Raspian Stretch
@@ -25,8 +25,8 @@ L'installation est très longue (plus de 4 heures).
 Bien passer la taille du swap à 1024 pour la compilation d'OpenCV
 et la repasser en normal après.
 
-———————————————————————————————————————————————————————————————
-### Contenu de l'archive ###
+
+## Contenu de l'archive
 
 ├── ReadMe.txt					Ce fichier
 ├── config.txt					Fichier de configuration, emplacement /boot/config.txt
@@ -53,8 +53,8 @@ et la repasser en normal après.
 │   └── sudoku.png				Exemple d'une image de Sudoku
 │   └── calibrage.jpg			Exemple d'une image de calibration
 
-———————————————————————————————————————————————————————————————
-### Mode d'emploi ###
+
+## Mode d'emploi
 
 ── Étape 0 : dans un terminal, décompresser l'archive et se placer dans le dossier Sudoku contenant le code
 ── Étape 1 : (si première exécution) exécuter digit_learner.py (python3 digit_learner.py) séparément afin de générer les fichiers de données .data nécessaires à l'apprentissage de l'algorithme des k plus proches voisins.
