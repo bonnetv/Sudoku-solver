@@ -2,6 +2,8 @@
 
 Ce projet permet de résoudre et remplir une grille de sudoku à l'aide d'un Raspberry Pi et d'une table traçante.
 
+Le projet est décrit dans [ce rapport](docs/Rapport_final.pdf).
+
 > Vidéo de démonstration :
 
 > [![Watch the video](https://github.com/bonnetv/Sudoku-solver/blob/master/img/Capture.JPG)](https://drive.google.com/open?id=1vr8ph6N277OrLa1NCr08aWasJZEI5jlR)
@@ -25,6 +27,8 @@ La bibliothèque OpenCV 3.4.1 a été installée en suivant le guide suivant (sa
 L'installation est très longue (plus de 4 heures). 
 Bien passer la taille du swap à 1024 pour la compilation d'OpenCV
 et la repasser en normal après.
+
+La base de donnée d'apprentissage pour la reconnaissance des chiffres est extraite de la base [Chars74K](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/) (*de Campos* et al)
 
 
 ## Descriptif du répertoire ./src
@@ -51,14 +55,14 @@ et la repasser en normal après.
 
 - Étape 1 : (si première exécution) exécuter `digit_learner.py` séparément afin de générer les fichiers de données .data nécessaires à l'apprentissage de l'algorithme des k plus proches voisins :
 
-```
-python3 digit_learner.py
-```
+> ```
+> python3 digit_learner.py
+> ```
 
 - Étape 2 : exécuter `main.py` EN MODE SUPER-UTILISATEUR :
 
-```
-sudo python3 main.py
-```
+> ```
+> sudo python3 main.py
+> ```
 
 Lors de son exécution, l'algorithme génèrera des images dans le dossier du code qui permettent d'évaluer le fonctionnement ou non de l'algorithme.
