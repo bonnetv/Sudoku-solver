@@ -1,7 +1,7 @@
 # Sudoku-solver
 This project allows a Raspberry Pi to solve and fill a sudoku grid with an existing plotter system
 
-[![Watch the video](https://lh4.googleusercontent.com/8v2a_u0yyfoc89XFM1FTs5Xo4fILJNH8sscSUkjF2ShYMvPKcu8_jMNuenYZRB6fXMiC1ABwEZlLG8Gkndg9=w1920-h1080-n-k-rw)](https://drive.google.com/open?id=1vr8ph6N277OrLa1NCr08aWasJZEI5jlR)
+[![Watch the video](https://drive.google.com/file/d/1b-JCrRBOXcKtO29dXPjBXK_4PgDXPGdr/view?usp=sharing)](https://drive.google.com/open?id=1vr8ph6N277OrLa1NCr08aWasJZEI5jlR)
 
 ———————————————————————————————————————————————————————————————
 ### Spécifications techniques ###
