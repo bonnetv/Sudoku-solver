@@ -1,9 +1,10 @@
-# Sudoku-solver
-This project allows a Raspberry Pi to solve and fill a sudoku grid with an existing plotter system
+# Un robot solveur de sudoku
 
-Vidéo de démonstration :
+Ce projet permet de résoudre et remplir une grille de sudoku à l'aide d'un Raspberry Pi et d'une table traçante.
 
-[![Watch the video](https://github.com/bonnetv/Sudoku-solver/blob/master/img/Capture.JPG)](https://drive.google.com/open?id=1vr8ph6N277OrLa1NCr08aWasJZEI5jlR)
+> Vidéo de démonstration :
+
+> [![Watch the video](https://github.com/bonnetv/Sudoku-solver/blob/master/img/Capture.JPG)](https://drive.google.com/open?id=1vr8ph6N277OrLa1NCr08aWasJZEI5jlR)
 
 
 ## Spécifications techniques
@@ -58,6 +59,6 @@ python3 digit_learner.py
 
 ```
 sudo python3 main.py
-```.
+```
 
 Lors de son exécution, l'algorithme génèrera des images dans le dossier du code qui permettent d'évaluer le fonctionnement ou non de l'algorithme.
