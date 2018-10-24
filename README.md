@@ -2,7 +2,7 @@
 
 Ce projet permet de résoudre et remplir une grille de sudoku à l'aide d'un Raspberry Pi et d'une table traçante.
 
-Le projet est décrit dans [ce rapport](doc/Rapport_final.pdf).
+Le projet est décrit plus en détails dans [ce rapport](doc/Rapport_final.pdf), ainsi que dans cette[présentation](doc/Soutenance.pdf).
 
 > Vidéo de démonstration :
 
